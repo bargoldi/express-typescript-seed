@@ -1,9 +1,9 @@
-# express-typescript-seed
-Express, typescript based seed. (Micro-services intended)
+# nodejs-typescript-seed
+NodeJS, typescript based seed. (Micro-services intended)
 
 ## Usage
 Clone the repository: 
-<br>```git clone https://github.com/bargoldi/express-typescript-seed.git```
+<br>```git clone https://github.com/bargoldi/nodejs-typescript-seed.git```
 
 Run the basic server:
 <br>```npm start```
@@ -42,3 +42,4 @@ As I mentioned above, the 'extensible' modules are going to have their own packa
 * Don't forget to include `package.json`, `tsconfig.json`, etc... in a new module
 * Don't forget to use the modules as dependencies and not as locals
 * Don't forget to use UMD import of TS instead of relative path
+* The seed initializes an Express app but you are free to use pure NodeJS, KoaJS, etc...
