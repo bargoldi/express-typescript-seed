@@ -1,7 +1,7 @@
 {
-  "name": "express-typescript-seed",
+  "name": "nodejs-typescript-seed",
   "version": "1.0.0",
-  "description": "Express, typescript based seed. (Micro-services intended)",
+  "description": "NodeJS, typescript based seed. (Micro-services intended)",
   "main": "index.js",
   "scripts": {
     "cleanup": "rimraf dist/",
@@ -10,11 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bargoldi/express-typescript-seed"
+    "url": "https://github.com/bargoldi/nodejs-typescript-seed"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/bargoldi/express-typescript-seed#readme",
+  "homepage": "https://github.com/bargoldi/nodejs-typescript-seed#readme",
   "devDependencies": {
     "@types/body-parser": "0.0.33",
     "@types/debug": "0.0.29",
