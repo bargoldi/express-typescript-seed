@@ -1,0 +1,36 @@
+{
+  "name": "express-typescript-seed",
+  "version": "1.0.0",
+  "description": "Express, typescript based seed. (Micro-services intended)",
+  "main": "index.js",
+  "scripts": {
+    "cleanup": "rimraf dist/",
+    "reinstall-local": "npm uninstall dal && npm uninstall models && npm install",
+    "start": "npm run cleanup && gulp project && npm run reinstall-local && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bargoldi/express-typescript-seed"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/bargoldi/express-typescript-seed#readme",
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "dal": "file:./dal",
+    "models": "file:./models"
+  }
+}
