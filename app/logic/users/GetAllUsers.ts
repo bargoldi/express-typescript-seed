@@ -1,5 +1,5 @@
-import DAL from 'dal';
+import { Users } from 'dal';
 
 export default function get() {
-	return DAL.Users.getUsers();
+	return Users.getUsers();
 }

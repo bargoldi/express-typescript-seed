@@ -1,5 +1,3 @@
-import * as Users from './users';
+import * as UsersDAL from './users';
 
-export default {
-	Users
-}
+export var Users = UsersDAL;

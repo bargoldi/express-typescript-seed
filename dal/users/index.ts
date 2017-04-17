@@ -1,6 +1,1 @@
-import { getUsers, getUserById } from './UsersGetter';
-
-export {
-	getUsers,
-	getUserById
-}
+export { getUsers, getUserById } from './UsersGetter';
