@@ -1,5 +1,5 @@
-import DAL from 'dal';
+import { Users } from 'dal';
 
-export default function get(id: number) {
-	return DAL.UsersGetter.getUserById(id);
+export function getUserById(id: number) {
+	return Users.getUserById(id);
 }
