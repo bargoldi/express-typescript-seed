@@ -1,7 +1,7 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 
-import { winstonStream } from './logger/Logger';
+import Logger from './logger/Logger';
 import { UserRoutes } from './routes';
 
 class App {
@@ -14,7 +14,7 @@ class App {
 	}
 
 	private middleware(): void {
-		this.express.use(express.logger({stream:winstonStream}));
+		this.express.use(morgan('combined', {stream: Logger.stream}));
 		this.express.use(bodyParser.json());
 		this.express.use(bodyParser.urlencoded({extended: false}));
 	}
