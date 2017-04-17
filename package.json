@@ -6,7 +6,8 @@
   "scripts": {
     "cleanup": "rimraf dist/",
     "reinstall-local": "npm uninstall dal && npm uninstall models && npm install",
-    "start": "npm run cleanup && gulp project && npm run reinstall-local && node dist/index.js"
+    "compile-gulp": "tsc gulpfile.ts --experimentalDecorators true",
+    "start": "npm run cleanup && npm run compile-gulp && gulp project && npm run reinstall-local && node dist/index.js"
   },
   "repository": {
     "type": "git",

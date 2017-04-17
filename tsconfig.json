@@ -3,7 +3,7 @@
     "module": "system",
     "target": "es5",
     "sourceMap": true,
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     "moduleResolution": "node"
   },
   "exclude": [
