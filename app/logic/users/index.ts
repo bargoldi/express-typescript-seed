@@ -1,4 +1,2 @@
-import getAllUsers from './GetAllUsers';
-import getUserById from './GetUserById';
-
-export default {getAllUsers, getUserById};
+export { getAllUsers } from './GetAllUsers';
+export { getUserById } from './GetUserById';
