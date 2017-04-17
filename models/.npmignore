@@ -1,5 +1,9 @@
-package.json
-tsconfig.json
+.npmignore
+
+gulpfile.d.ts
+gulpfile.ts
+gulpfile.js
+
 node_modules/
 # ignore the .ts files
 *.ts
