@@ -1,5 +1,5 @@
-import * as UsersGetter from './users/UsersGetter';
+import * as Users from './users';
 
 export default {
-	UsersGetter: UsersGetter,
+	Users
 }
