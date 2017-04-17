@@ -2,7 +2,9 @@
   "compilerOptions": {
     "module": "system",
     "target": "es5",
-    "sourceMap": true
+    "sourceMap": true,
+    "experimentalDecorators": false,
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules",
